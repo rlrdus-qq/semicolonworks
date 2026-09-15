@@ -13,7 +13,7 @@ export const SourceCodeModal: React.FC<SourceCodeModalProps> = ({ isOpen, onClos
 
   const handleCopy = async () => {
     try {
-      const res = await fetch('/wcs_web.html');
+      const res = await fetch(`${import.meta.env.BASE_URL}wcs_web.html`);
       const text = await res.text();
       await navigator.clipboard.writeText(text);
       setCopied(true);
@@ -21,7 +21,7 @@ export const SourceCodeModal: React.FC<SourceCodeModalProps> = ({ isOpen, onClos
     } catch {
       // fallback
       const link = document.createElement('a');
-      link.href = '/wcs_web.html';
+      link.href = `${import.meta.env.BASE_URL}wcs_web.html`;
       link.target = '_blank';
       link.click();
     }
@@ -29,7 +29,7 @@ export const SourceCodeModal: React.FC<SourceCodeModalProps> = ({ isOpen, onClos
 
   const handleDownload = () => {
     const a = document.createElement('a');
-    a.href = '/wcs_web.html';
+    a.href = `${import.meta.env.BASE_URL}wcs_web.html`;
     a.download = 'wcs_web.html';
     document.body.appendChild(a);
     a.click();
@@ -37,7 +37,7 @@ export const SourceCodeModal: React.FC<SourceCodeModalProps> = ({ isOpen, onClos
   };
 
   const handleOpenNewTab = () => {
-    window.open('/wcs_web.html', '_blank');
+    window.open(`${import.meta.env.BASE_URL}wcs_web.html`, '_blank');
   };
 
   return (
