@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>워싱턴크리스찬스쿨 - 의대 및 글로벌 명문대 직행 로드맵</title>
+  <meta name="description" content="IB World School 공식 후보교, 미국 정규 K-12 학위 취득, 한국 의사 국시(KMLE) 자격 연계, 1:1~1:4 초밀착 전담 튜터링 및 24시간 안전 리조트 기숙사 WCS">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Plus Jakarta Sans & Noto Sans KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #0B0C0E;
+      color: #FFFFFF;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    .btn-glow {
+      box-shadow: 0 0 20px rgba(255, 86, 0, 0.45);
+    }
+    @keyframes pulse-slow {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.85; transform: scale(1.03); }
+    }
+    .live-pulse {
+      animation: pulse-slow 2s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-[#0B0C0E] text-white selection:bg-[#FF5600] selection:text-white flex flex-col items-center">
+
+  <!-- 1. Top Live Notice / Countdown Banner -->
+  <aside id="top-banner" class="w-full bg-[#FF5600] text-white px-4 py-2 flex items-center justify-between text-xs font-bold tracking-tight fixed top-0 inset-x-0 z-50 shadow-md select-none">
+    <div class="max-w-4xl mx-auto w-full flex items-center justify-between">
+      <div class="flex items-center gap-2 min-w-0">
+        <span class="flex items-center gap-1 bg-black/30 px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-yellow-300 live-pulse"></span>
+          LIVE 마감임박
+        </span>
+        <span class="truncate text-[11px] sm:text-[12px] font-extrabold">
+          2025-26 정규·캠프 선착순 잔여 <span class="text-yellow-200 underline underline-offset-2">단 3석</span>
+        </span>
+      </div>
+      <div class="flex items-center gap-1 shrink-0 font-mono text-[11px] bg-black/25 px-2 py-0.5 rounded border border-black/10">
+        <i data-lucide="timer" class="w-3.5 h-3.5 text-white/90"></i>
+        <span id="countdown">04:18:29</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 2. Sticky Header with Logo -->
+  <header id="main-header" class="fixed top-[35px] inset-x-0 z-40 bg-[#0B0C0E]/92 backdrop-blur-md border-b border-white/10 px-4 h-14 flex items-center justify-between">
+    <div class="max-w-4xl mx-auto w-full flex items-center justify-between">
+      <a href="#" class="flex items-center bg-white px-2.5 py-1 rounded shadow-sm hover:opacity-95 transition-opacity">
+        <img src="https://lh3.googleusercontent.com/aida/AEtjO1UDCYrlgkhqT7vBUaqScmKwrMcEyuAizO2sw0mbb8-U87c27q2yTt6B0W9jQHPrFl_QSsl5DSlJci9sRh70p3soJ48KFRq_1F8nm8DseXC9xhGobfLQAilkNZwPx-okc7u9SLvrY8-PTq6Cc-kv6NuQL3truCvPpmh423h9cX7qTmggTCaIc6uXAcjXl_QFBwunrVSMpkspIOPHHfqNeORwgf1ir9eAfabGLJ2F5AZmnodiZ0PetS83gA" alt="워싱턴크리스찬스쿨 로고" class="h-6 w-auto object-contain">
+      </a>
+      <div class="flex items-center gap-2">
+        <a href="tel:01085059800" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white/80 hover:text-white transition-all" title="전화 상담">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+        </a>
+        <a href="#consult-section" class="px-3.5 py-1.5 rounded-full bg-[#FF5600] hover:bg-[#E04C00] text-white text-[12px] font-extrabold flex items-center gap-1 shadow-md transition-all">
+          선착순 상담
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="w-full max-w-2xl min-h-screen flex flex-col bg-[#0B0C0E] border-x border-white/5 shadow-2xl relative pt-[92px] pb-24">
+    
+    <!-- 3. Hero Section -->
+    <section id="hero-section" class="px-4 pt-4 pb-8 flex flex-col gap-4">
+      <div class="flex flex-wrap gap-1.5">
+        <span class="px-2.5 py-1 rounded-md bg-white/10 border border-white/15 text-[11px] font-bold text-gray-200 flex items-center gap-1.5">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-yellow-400"></i>
+          IB 후보학교 공인
+        </span>
+        <span class="px-2.5 py-1 rounded-md bg-orange-500/20 border border-[#FF5600]/40 text-[11px] font-bold text-orange-400 flex items-center gap-1.5">
+          <i data-lucide="users" class="w-3.5 h-3.5 text-orange-400"></i>
+          1:1~1:4 초밀착 케어
+        </span>
+        <span class="px-2.5 py-1 rounded-md bg-white/10 border border-white/15 text-[11px] font-bold text-yellow-300 flex items-center gap-1.5">
+          <i data-lucide="stethoscope" class="w-3.5 h-3.5 text-yellow-300"></i>
+          한국 의사 국시 자격
+        </span>
+      </div>
+
+      <div class="flex flex-col gap-1.5">
+        <p class="text-[#FF5600] font-extrabold text-[13px] tracking-wider uppercase flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-[#FF5600] inline-block animate-pulse"></span>
+          WASHINGTON CHRISTIAN SCHOOL
+        </p>
+        <h1 class="text-[30px] sm:text-[34px] leading-[38px] sm:leading-[42px] font-black tracking-tight text-white">
+          단순 어학연수 그만.<br />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-300 to-yellow-400">
+            의대·글로벌 명문대 직행
+          </span><br />
+          확실한 로드맵!
+        </h1>
+        <p class="text-gray-400 text-[14px] leading-relaxed pt-1">
+          공인 IB 커리큘럼 × 미국 인가 정규 K-12 학위 취득.<br />
+          24시간 안전 리조트 기숙사에서 완성되는 독점 프리미엄 스쿨링.
+        </p>
+      </div>
+
+      <!-- Campus Image Card -->
+      <div onclick="openImageModal('https://lh3.googleusercontent.com/aida/AEtjO1UIN_K2Wmar0RcYKhtHIWplJZ4DcH-kGJPkW--WeOLB-fsDuFrkUgbrBzBI6vkPs1aQAysb0EfdP4WhzwAu4OdHD9xiggEOr5H1PdxWERKCF8I_OHPpvq-wXt1Iptp47SewWbFkNWdFmD87wO6KV4KablK01jpTacfFXNoM6nWvioeYsDwXlqbHCVhEKI8UVG9UvM-bO-F3ItVkK8uAdkqNGvWxEzGXjL8EA0skZEw9dcehqMhG_MJJR4Q', 'The Viewfort Park 전용 캠퍼스')" class="relative w-full rounded-2xl overflow-hidden border border-white/15 shadow-2xl bg-[#1D1E22] aspect-[16/10] cursor-pointer group">
+        <img src="https://lh3.googleusercontent.com/aida/AEtjO1UIN_K2Wmar0RcYKhtHIWplJZ4DcH-kGJPkW--WeOLB-fsDuFrkUgbrBzBI6vkPs1aQAysb0EfdP4WhzwAu4OdHD9xiggEOr5H1PdxWERKCF8I_OHPpvq-wXt1Iptp47SewWbFkNWdFmD87wO6KV4KablK01jpTacfFXNoM6nWvioeYsDwXlqbHCVhEKI8UVG9UvM-bO-F3ItVkK8uAdkqNGvWxEzGXjL8EA0skZEw9dcehqMhG_MJJR4Q" alt="캠퍼스 전경" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent pointer-events-none"></div>
+        <div class="absolute bottom-3 inset-x-3 flex items-center justify-between pointer-events-none">
+          <div class="flex items-center gap-2 bg-black/65 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/15">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 live-pulse"></span>
+            <span class="text-xs font-bold text-gray-100">The Viewfort Park 전용 캠퍼스</span>
+          </div>
+          <span class="text-[11px] font-black text-yellow-400 bg-yellow-400/20 border border-yellow-400/40 px-2.5 py-1 rounded-lg">진학률 98.2%</span>
+        </div>
+      </div>
+
+      <a href="#consult-section" class="w-full py-4 rounded-xl bg-[#FF5600] hover:bg-[#E04C00] text-white text-[16px] font-black flex items-center justify-center gap-2 shadow-lg transition-all btn-glow mt-1">
+        <span>선착순 1:1 맞춤 진학 로드맵 받기</span>
+        <i data-lucide="arrow-right" class="w-5 h-5 text-white"></i>
+      </a>
+    </section>
+
+    <!-- 4. Parents Talk Section -->
+    <section id="parents-talk-section" class="px-4 py-8 bg-[#131418] border-y border-white/10 flex flex-col gap-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2 text-yellow-400 text-xs font-black tracking-wider">
+          <i data-lucide="message-square" class="w-4 h-4"></i>
+          <span>실제 학부모님들의 솔직한 고민</span>
+        </div>
+        <span class="text-[11px] text-gray-400">학부모 89% 공감</span>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <div class="p-3.5 rounded-2xl bg-[#1D1F24] border border-white/10 flex items-start gap-3">
+          <span class="text-xl">💬</span>
+          <div class="flex flex-col gap-0.5">
+            <span class="text-xs font-bold text-gray-300">"국내 의대 진학 문턱이 너무 높아 고민입니다..."</span>
+            <p class="text-[13px] text-gray-400">보건복지부 인정 해외 의대 졸업 후 한국 의사 국시(KMLE) 자격을 얻는 확실한 길이 있습니다.</p>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-2xl bg-[#1D1F24] border border-white/10 flex items-start gap-3">
+          <span class="text-xl">💬</span>
+          <div class="flex flex-col gap-0.5">
+            <span class="text-xs font-bold text-gray-300">"어학원 보냈더니 한국 아이들끼리만 놀다 왔어요."</span>
+            <p class="text-[13px] text-gray-400">교사 대 학생 1:1~1:4 초밀착 지도와 매일 1:1 에세이 첨삭으로 3개월 만에 원어민 실력을 완성합니다.</p>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-2xl bg-[#1D1F24] border border-white/10 flex items-start gap-3">
+          <span class="text-xl">💬</span>
+          <div class="flex flex-col gap-0.5">
+            <span class="text-xs font-bold text-gray-300">"아이 혼자 보내는데 현지 치안이 걱정됩니다."</span>
+            <p class="text-[13px] text-gray-400">필리핀 카비테 최고급 빌리지 리조트 파크 내 단독 기숙사! 한국인 사감이 24시간 상주 밀착 관리합니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 3 Killer Points -->
+    <section id="killer-points-section" class="px-4 py-8 flex flex-col gap-5">
+      <div class="flex flex-col gap-1">
+        <span class="text-xs font-black text-yellow-400 tracking-wider uppercase">WHY WASHINGTON CHRISTIAN SCHOOL?</span>
+        <h2 class="text-[24px] font-black text-white leading-tight">
+          학부모 만족도 98%<br />WCS만의 3대 킬러 포인트
+        </h2>
+      </div>
+
+      <div class="flex flex-col gap-3.5">
+        <!-- Point 1 -->
+        <article class="p-4 rounded-2xl bg-[#17181C] border border-[#FF5600]/30 flex flex-col gap-2 shadow-md">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded bg-orange-500/20 text-orange-400 text-[11px] font-extrabold tracking-tight">KILLER 01 • 글로벌 의대 진학</span>
+            <i data-lucide="stethoscope" class="w-5 h-5 text-orange-400"></i>
+          </div>
+          <h3 class="text-[17px] font-black text-white pt-1">
+            필리핀 의대 졸업 후 <span class="text-yellow-300">‘한국 의사 국가고시’</span> 응시 자격!
+          </h3>
+          <ul class="text-[13px] text-gray-300 space-y-1.5 pt-1">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-orange-400 shrink-0 mt-0.5"></i>
+              <span>보건복지부 인정 필리핀 명문 의·치대 최단기 연계 진학</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-orange-400 shrink-0 mt-0.5"></i>
+              <span>해외 의사 면허 + 한국 의사 예비시험 양방향 커리어 보장</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Point 2 -->
+        <article class="p-4 rounded-2xl bg-[#17181C] border border-blue-500/25 flex flex-col gap-2 shadow-md">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded bg-blue-500/20 text-blue-400 text-[11px] font-extrabold tracking-tight">KILLER 02 • 초밀착 튜터링</span>
+            <i data-lucide="users" class="w-5 h-5 text-blue-400"></i>
+          </div>
+          <h3 class="text-[17px] font-black text-white pt-1">
+            선생님이 학생보다 많다! <span class="text-blue-300">1:1 ~ 1:4 전담 멘토링</span>
+          </h3>
+          <ul class="text-[13px] text-gray-300 space-y-1.5 pt-1">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-blue-400 shrink-0 mt-0.5"></i>
+              <span>방임 제로! 매일 원어민 1:1 에세이 첨삭 및 스피킹 피드백</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-blue-400 shrink-0 mt-0.5"></i>
+              <span>부모님 안심 데일리 학습 리포트 및 식단 실시간 투명 공유</span>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Point 3 -->
+        <article class="p-4 rounded-2xl bg-[#17181C] border border-emerald-500/25 flex flex-col gap-2 shadow-md">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-[11px] font-extrabold tracking-tight">KILLER 03 • 세계 공인 학위</span>
+            <i data-lucide="award" class="w-5 h-5 text-emerald-400"></i>
+          </div>
+          <h3 class="text-[17px] font-black text-white pt-1">
+            암기 주입 NO! <span class="text-emerald-300">IB(국제 바칼로레아) 정규 후보교</span>
+          </h3>
+          <ul class="text-[13px] text-gray-300 space-y-1.5 pt-1">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span>미국 K-12 인가 기반 전 세계 및 한국 학교 100% 학력 인정</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span>아이비리그 및 글로벌 명문대 학종 전형 최적화 커리큘럼</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6. 4 Core Programs -->
+    <section id="curriculum-tracks-section" class="px-4 py-8 bg-[#121316] border-y border-white/10 flex flex-col gap-5">
+      <div class="flex flex-col gap-1">
+        <span class="text-xs font-black text-orange-400 tracking-wider uppercase flex items-center gap-1">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+          CURRICULUM TRACKS
+        </span>
+        <h2 class="text-[22px] sm:text-[24px] font-black text-white leading-tight">
+          목적에 맞게 선택하는 4대 트랙
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <!-- Track 1 -->
+        <div class="p-3.5 rounded-xl bg-[#1A1C20] border border-white/10 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="px-2 py-0.5 rounded bg-white/15 text-[11px] font-black text-white">트랙 01</span>
+            <span class="text-[11px] font-bold text-yellow-400">미국 학력 100% 인정</span>
+          </div>
+          <h4 class="text-[16px] font-extrabold text-white">K-12 정규 조기유학</h4>
+          <p class="text-[13px] text-gray-400 leading-snug">미국 정규 커리큘럼 이수 + 토플·SAT 밀착 케어로 아이비리그 및 명문대 직행</p>
+        </div>
+
+        <!-- Track 2 -->
+        <div class="p-3.5 rounded-xl bg-[#1A1C20] border border-white/10 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="px-2 py-0.5 rounded bg-orange-500/20 text-[11px] font-black text-orange-400">트랙 02</span>
+            <span class="text-[11px] font-bold text-red-400 bg-red-500/20 px-1.5 py-0.5 rounded">마감임박</span>
+          </div>
+          <h4 class="text-[16px] font-extrabold text-white">몰입형 방학캠프 (4주/8주)</h4>
+          <p class="text-[13px] text-gray-400 leading-snug">하루 10시간+ 1:1 몰입 스피킹 & 에세이 훈련 + 수영·승마 리조트 액티비티</p>
+        </div>
+
+        <!-- Track 3: Golf Academy with Photo -->
+        <div class="rounded-xl bg-[#1A1C20] border border-white/10 overflow-hidden flex flex-col">
+          <div class="relative w-full h-32 cursor-pointer group" onclick="openImageModal('https://lh3.googleusercontent.com/aida/AEtjO1UcRD7UDAywgkj-H2pm2UnFGkOG5RjI2mDRoy45CrI6U9u9h0oi7nkPBHIgYsn2hp51WN8mmRwG5IsNCJdlTmM8XpHZ4YoAm2NKwTZ-8YMG6bwbRX361vmLgacj08wFP8ZYCqT5RNlSmJM9RJuyo1nMSGfABfwb0ogyB97CYYBlzC8qatdzccDvL9xaGjxiE6D5mvoesY-UrgvHWGpFw3dQIV-8Iw0bpMXXGAGGGHAOVlPu0I9QVxT3-do', '주니어 골프 아카데미')">
+            <img src="https://lh3.googleusercontent.com/aida/AEtjO1UcRD7UDAywgkj-H2pm2UnFGkOG5RjI2mDRoy45CrI6U9u9h0oi7nkPBHIgYsn2hp51WN8mmRwG5IsNCJdlTmM8XpHZ4YoAm2NKwTZ-8YMG6bwbRX361vmLgacj08wFP8ZYCqT5RNlSmJM9RJuyo1nMSGfABfwb0ogyB97CYYBlzC8qatdzccDvL9xaGjxiE6D5mvoesY-UrgvHWGpFw3dQIV-8Iw0bpMXXGAGGGHAOVlPu0I9QVxT3-do" alt="골프 아카데미" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+            <span class="absolute bottom-2 left-3 text-xs font-bold text-white flex items-center gap-1">
+              ⛳ 주니어 골프 아카데미 (실물 사진)
+            </span>
+          </div>
+          <div class="p-3.5 flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-[11px] font-black text-emerald-400">트랙 03</span>
+              <span class="text-[11px] font-bold text-emerald-400">정규 학력 동시 취득</span>
+            </div>
+            <h4 class="text-[16px] font-extrabold text-white">주니어 골프 아카데미</h4>
+            <p class="text-[13px] text-gray-400 leading-snug">18홀 필드 레슨 + 미국 정규 고교 졸업장 취득으로 미국 대학 체육특기자 및 장학생 진학</p>
+          </div>
+        </div>
+
+        <!-- Track 4 -->
+        <div class="p-3.5 rounded-xl bg-[#1A1C20] border border-white/10 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="px-2 py-0.5 rounded bg-blue-500/20 text-[11px] font-black text-blue-400">트랙 04</span>
+            <span class="text-[11px] font-bold text-blue-400">국내 수강 가능</span>
+          </div>
+          <h4 class="text-[16px] font-extrabold text-white">사이버 온라인스쿨 (Cyber Center)</h4>
+          <p class="text-[13px] text-gray-400 leading-snug">출국 없이 한국에서 미국 공인 정규 학위 취득! 시간과 비용을 획기적으로 절감하는 온라인 스쿨링</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Real Proof Showcase Gallery -->
+    <section id="official-proof-section" class="px-4 py-8 flex flex-col gap-5">
+      <div class="flex flex-col gap-1">
+        <span class="text-xs font-black text-yellow-400 tracking-wider uppercase flex items-center gap-1.5">
+          <i data-lucide="shield-check" class="w-4 h-4"></i>
+          OFFICIAL VERIFICATION
+        </span>
+        <h2 class="text-[22px] sm:text-[24px] font-black text-white leading-tight">
+          눈으로 확인하는 공식 인증과 결과
+        </h2>
+        <p class="text-xs text-gray-400">카드를 누르면 고화질 원본 문서를 크게 확인하실 수 있습니다.</p>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <!-- Proof 1: IB Report -->
+        <article onclick="openImageModal('https://lh3.googleusercontent.com/aida/AEtjO1U14dH9Wj_56u0ketFYodWzAb5FOS-1xN_zTa8JAKw1aWNbTLopfyY7Q-iREOIoPkNnEjTEUp_274rOXoSZFXapvrVWXNRPpS8Qslgwjyqx8_q0ozODTxaFCwpil4sV9_HFR_1enNZWutS-ks91i8B6IEizkdOVQCx4LDIQmv2L4B3t60CsIATLMq_1S9J480zjj_YbXlHTfiFpNyXBSTSU4vo8aMKBbC5LneEIZLsASo0h1UEmQCbgUA', 'IB World School 공식 후보 승인 문서')" class="rounded-2xl bg-[#17181C] border border-white/10 overflow-hidden shadow-lg cursor-pointer group hover:border-[#FF5600]/50 transition-all">
+          <div class="relative w-full aspect-[4/3] bg-black/40">
+            <img src="https://lh3.googleusercontent.com/aida/AEtjO1U14dH9Wj_56u0ketFYodWzAb5FOS-1xN_zTa8JAKw1aWNbTLopfyY7Q-iREOIoPkNnEjTEUp_274rOXoSZFXapvrVWXNRPpS8Qslgwjyqx8_q0ozODTxaFCwpil4sV9_HFR_1enNZWutS-ks91i8B6IEizkdOVQCx4LDIQmv2L4B3t60CsIATLMq_1S9J480zjj_YbXlHTfiFpNyXBSTSU4vo8aMKBbC5LneEIZLsASo0h1UEmQCbgUA" alt="IB 공식 승인 보고서" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 backdrop-blur-md text-[11px] font-extrabold text-yellow-300 border border-yellow-300/30">📜 IB 공식 인가 보고서</span>
+            <div class="absolute bottom-2.5 right-3 p-1.5 rounded-full bg-black/60 text-white flex items-center gap-1 text-[11px] px-2.5">
+              <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+              <span>확대보기</span>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col gap-1">
+            <h3 class="text-[15px] font-bold text-white">글로벌 최고 권위 IB World School 공식 후보교 승인</h3>
+            <p class="text-xs text-gray-400 leading-relaxed">국제 바칼로레아(IB) 기구의 엄격한 교원 자격 및 교육 인프라 심사를 통과한 공식 보고서입니다.</p>
+          </div>
+        </article>
+
+        <!-- Proof 2: Graduation -->
+        <article onclick="openImageModal('https://lh3.googleusercontent.com/aida/AEtjO1WR-oncLSjLgA7E_fqtdCn8L6624_jyZjF4xCffJzvBEp28_CgaPEgo5iT8GFubL-LmRzXCjTpvZywi3rBqsRd-0EMCwBl8ZimIGQSFZq_AiFoNtCBwNx_qEe_Xc7sfrWMuUcQlJ7SMAKQJvGiyo_DL9W5igZTiAzuSlq2FmM9YXnA6StV-YG5zjtFchA9o7AIwnWTNOqrUb9BFfZbfgy_8-M3oXg1pzHazcUFJV95ZshmGYoqLyq-KkQ', '글로벌 명문대 진학 졸업식')" class="rounded-2xl bg-[#17181C] border border-white/10 overflow-hidden shadow-lg cursor-pointer group hover:border-[#FF5600]/50 transition-all">
+          <div class="relative w-full aspect-[4/3] bg-black/40">
+            <img src="https://lh3.googleusercontent.com/aida/AEtjO1WR-oncLSjLgA7E_fqtdCn8L6624_jyZjF4xCffJzvBEp28_CgaPEgo5iT8GFubL-LmRzXCjTpvZywi3rBqsRd-0EMCwBl8ZimIGQSFZq_AiFoNtCBwNx_qEe_Xc7sfrWMuUcQlJ7SMAKQJvGiyo_DL9W5igZTiAzuSlq2FmM9YXnA6StV-YG5zjtFchA9o7AIwnWTNOqrUb9BFfZbfgy_8-M3oXg1pzHazcUFJV95ZshmGYoqLyq-KkQ" alt="졸업 세레머니" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 backdrop-blur-md text-[11px] font-extrabold text-orange-400 border border-orange-400/30">🎓 명문대 진학 졸업 세레머니</span>
+            <div class="absolute bottom-2.5 right-3 p-1.5 rounded-full bg-black/60 text-white flex items-center gap-1 text-[11px] px-2.5">
+              <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+              <span>확대보기</span>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col gap-1">
+            <h3 class="text-[15px] font-bold text-white">전 세계 유수 대학으로 진학하는 자랑스러운 WCS 졸업생</h3>
+            <p class="text-xs text-gray-400 leading-relaxed">미국, 영국, 아시아 명문대 및 의·치대에 매년 안정적으로 합격생을 배출하고 있습니다.</p>
+          </div>
+        </article>
+
+        <!-- Proof 3: Orientation -->
+        <article onclick="openImageModal('https://lh3.googleusercontent.com/aida/AEtjO1X4GwXkZfFgsLE3ltw2-eaRWXdcLyTMXV9QFgCDOhDKtVEkemF9bguuYNfb6usVSBVGbzD6d7oTcQo4IYpJWhUvQvHWovk9GP_QxqPgf3NT8vODslzXTDUHdfjqg-pXWXr1dhRsUFdBt3wQTB-ebXE0aZeNyFV8CcorbmQwTi9EzTy8MhXCsqjhMcN3H7tNt1r9q3omBUw6NrKNW55WJefvpgCDY3met-c5yB8FGWVDw_ykauoTlcxlYw', '캠퍼스 라이프 & 오리엔테이션')" class="rounded-2xl bg-[#17181C] border border-white/10 overflow-hidden shadow-lg cursor-pointer group hover:border-[#FF5600]/50 transition-all">
+          <div class="relative w-full aspect-[4/3] bg-black/40">
+            <img src="https://lh3.googleusercontent.com/aida/AEtjO1X4GwXkZfFgsLE3ltw2-eaRWXdcLyTMXV9QFgCDOhDKtVEkemF9bguuYNfb6usVSBVGbzD6d7oTcQo4IYpJWhUvQvHWovk9GP_QxqPgf3NT8vODslzXTDUHdfjqg-pXWXr1dhRsUFdBt3wQTB-ebXE0aZeNyFV8CcorbmQwTi9EzTy8MhXCsqjhMcN3H7tNt1r9q3omBUw6NrKNW55WJefvpgCDY3met-c5yB8FGWVDw_ykauoTlcxlYw" alt="신학기 오리엔테이션" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 backdrop-blur-md text-[11px] font-extrabold text-blue-400 border border-blue-400/30">🏫 캠퍼스 라이프 & 오리엔테이션</span>
+            <div class="absolute bottom-2.5 right-3 p-1.5 rounded-full bg-black/60 text-white flex items-center gap-1 text-[11px] px-2.5">
+              <i data-lucide="zoom-in" class="w-3.5 h-3.5"></i>
+              <span>확대보기</span>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col gap-1">
+            <h3 class="text-[15px] font-bold text-white">원어민 교사진과 한국인 전담 사감의 따뜻한 환영</h3>
+            <p class="text-xs text-gray-400 leading-relaxed">현지 적응을 돕는 1:1 맞춤 생활 멘토링과 영양 한식 식단으로 안전한 유학 생활을 시작합니다.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 8. High-Conversion Lead Form Section -->
+    <section id="consult-section" class="px-4 py-8 bg-[#15171C] border-t border-white/10 flex flex-col gap-4 scroll-mt-20">
+      <div class="flex flex-col gap-1">
+        <span class="text-xs font-black text-[#FF5600] tracking-wider uppercase">FAST APPLICATION & ROADMAP</span>
+        <h2 class="text-[22px] sm:text-[24px] font-black text-white leading-tight">
+          선착순 잔여석 &amp;<br />1:1 맞춤 진학 로드맵 신청
+        </h2>
+        <p class="text-xs text-gray-400 leading-relaxed">
+          정보를 남겨주시면 담당 입학 실장님이 <strong class="text-white">30분 이내</strong>로 친절히 연락드려 자녀 맞춤형 브로슈어와 커리큘럼을 전송해 드립니다.
+        </p>
+      </div>
+
+      <!-- Lead Form -->
+      <form id="leadForm" onsubmit="handleLeadSubmit(event)" class="flex flex-col gap-3.5 mt-1">
+        <!-- Parent Name -->
+        <div class="flex flex-col gap-1.5">
+          <label for="parentName" class="text-xs font-bold text-gray-300">학부모 성함 *</label>
+          <input type="text" id="parentName" required placeholder="예: 김학부모" class="w-full h-12 px-3.5 rounded-xl bg-[#0B0C0E] border border-white/15 text-white placeholder:text-gray-500 text-sm focus:border-[#FF5600] focus:ring-1 focus:ring-[#FF5600] outline-none">
+        </div>
+
+        <!-- Parent Phone -->
+        <div class="flex flex-col gap-1.5">
+          <label for="parentPhone" class="text-xs font-bold text-gray-300">연락처 *</label>
+          <input type="tel" id="parentPhone" required placeholder="예: 010-1234-5678" class="w-full h-12 px-3.5 rounded-xl bg-[#0B0C0E] border border-white/15 text-white placeholder:text-gray-500 text-sm focus:border-[#FF5600] focus:ring-1 focus:ring-[#FF5600] outline-none">
+        </div>
+
+        <!-- Student Grade -->
+        <div class="flex flex-col gap-1.5">
+          <label for="studentGrade" class="text-xs font-bold text-gray-300">자녀 현재 학년 *</label>
+          <select id="studentGrade" required class="w-full h-12 px-3 rounded-xl bg-[#0B0C0E] border border-white/15 text-white text-sm focus:border-[#FF5600] focus:ring-1 focus:ring-[#FF5600] outline-none">
+            <option value="" disabled selected>자녀 학년을 선택해 주세요</option>
+            <option value="초등 1~3학년">초등 1~3학년</option>
+            <option value="초등 4~6학년">초등 4~6학년</option>
+            <option value="중학교 1~3학년">중학교 1~3학년</option>
+            <option value="고등학교 1~3학년">고등학교 1~3학년</option>
+          </select>
+        </div>
+
+        <!-- Programs -->
+        <div class="flex flex-col gap-1.5">
+          <span class="text-xs font-bold text-gray-300">관심 프로그램 (중복 가능)</span>
+          <div class="grid grid-cols-2 gap-2">
+            <label class="flex items-center gap-2 p-3 rounded-xl bg-[#0B0C0E] border border-white/15 text-xs text-gray-200 cursor-pointer">
+              <input type="checkbox" name="program" value="early" checked class="accent-[#FF5600]">
+              <span>정규 조기유학</span>
+            </label>
+            <label class="flex items-center gap-2 p-3 rounded-xl bg-[#0B0C0E] border border-white/15 text-xs text-gray-200 cursor-pointer">
+              <input type="checkbox" name="program" value="camp" class="accent-[#FF5600]">
+              <span>방학 몰입캠프</span>
+            </label>
+            <label class="flex items-center gap-2 p-3 rounded-xl bg-[#0B0C0E] border border-white/15 text-xs text-gray-200 cursor-pointer">
+              <input type="checkbox" name="program" value="golf" class="accent-[#FF5600]">
+              <span>주니어 골프</span>
+            </label>
+            <label class="flex items-center gap-2 p-3 rounded-xl bg-[#0B0C0E] border border-white/15 text-xs text-gray-200 cursor-pointer">
+              <input type="checkbox" name="program" value="cyber" class="accent-[#FF5600]">
+              <span>사이버 온라인</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submitBtn" class="w-full py-4 rounded-xl bg-[#FF5600] hover:bg-[#E04C00] text-white text-[16px] font-black flex items-center justify-center gap-2 shadow-lg btn-glow mt-2">
+          <span>무료 입학 가이드북 & 로드맵 신청하기</span>
+          <i data-lucide="send" class="w-4 h-4 text-white"></i>
+        </button>
+
+        <div class="flex items-center justify-center gap-1.5 text-[11px] text-gray-400 pt-1">
+          <i data-lucide="lock" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>개인정보는 상담 신청 목적으로만 안전하게 사용됩니다.</span>
+        </div>
+      </form>
+
+      <!-- Kakao and Phone Direct Action -->
+      <div class="mt-4 pt-4 border-t border-white/10 flex flex-col gap-2.5">
+        <span class="text-xs font-bold text-gray-400 text-center">빠른 전화 또는 카카오톡 문의</span>
+        <div class="grid grid-cols-2 gap-2">
+          <a href="tel:01085059800" class="py-3 px-3 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-colors">
+            <i data-lucide="phone" class="w-4 h-4 text-yellow-400"></i>
+            <span>010-8505-9800</span>
+          </a>
+          <a href="https://open.kakao.com/o/sYq1QUhd" target="_blank" rel="noopener noreferrer" class="py-3 px-3 rounded-xl bg-[#FEE500] hover:bg-[#E6CF00] text-[#191919] text-xs font-black flex items-center justify-center gap-1.5 transition-colors">
+            <i data-lucide="message-circle" class="w-4 h-4 fill-[#191919]"></i>
+            <span>카톡 1:1 상담</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Institutional Footer -->
+    <footer id="footer-section" class="px-4 py-8 text-[11px] text-gray-400 border-t border-white/10 flex flex-col gap-4">
+      <div class="flex flex-col gap-1.5">
+        <span class="font-bold text-white text-xs">워싱턴크리스찬스쿨 (Washington Christian School)</span>
+        <p class="leading-relaxed">
+          <strong>필리핀 본교 :</strong> Lot3 South Horizon1 Governor's Drive Brgy. Cabilang Baybay Carmona Cavite, Philippines<br />
+          <strong>전용 기숙 캠퍼스 :</strong> Carmona cavite The Viewfort Park Resort
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-1 leading-relaxed">
+        <p>한국 입학 직통 : <a href="tel:01085059800" class="text-yellow-400 font-bold underline">010-8505-9800</a> (24시간 상담)</p>
+        <p>필리핀 오피스 : 0949-980-7778</p>
+      </div>
+
+      <div class="pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-gray-500">
+        <span>© <script>document.write(new Date().getFullYear())</script> Washington Christian School.</span>
+        <span>IB Candidate School</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- 10. Bottom Floating Bar -->
+  <nav id="bottom-floating-bar" class="fixed bottom-0 inset-x-0 z-40 bg-[#0B0C0E]/95 backdrop-blur-md border-t border-white/15 p-2.5 shadow-2xl">
+    <div class="max-w-2xl mx-auto flex items-center gap-2">
+      <a href="tel:01085059800" class="h-12 w-12 rounded-xl bg-white/10 hover:bg-white/20 flex flex-col items-center justify-center text-white shrink-0 transition-colors" title="전화 상담">
+        <i data-lucide="phone" class="w-5 h-5 text-yellow-400"></i>
+        <span class="text-[9px] font-bold text-gray-300">전화</span>
+      </a>
+
+      <a href="#consult-section" class="flex-1 h-12 rounded-xl bg-[#FF5600] hover:bg-[#E04C00] text-white text-[14px] font-black flex items-center justify-center gap-1.5 shadow-lg btn-glow transition-all">
+        <span>선착순 1:1 맞춤 로드맵 신청</span>
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Image Modal Lightbox -->
+  <div id="imageModal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="relative max-w-lg w-full bg-[#17181C] rounded-2xl overflow-hidden border border-white/20 shadow-2xl">
+      <div class="p-3 bg-[#0B0C0E] border-b border-white/10 flex items-center justify-between">
+        <span id="modalImageTitle" class="text-xs font-bold text-gray-200 truncate"></span>
+        <button onclick="closeImageModal()" class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-white">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+      <div class="p-2 flex items-center justify-center bg-black">
+        <img id="modalImage" src="" alt="" class="max-h-[75vh] w-auto object-contain rounded-lg">
+      </div>
+    </div>
+  </div>
+
+  <!-- Consult Success Modal -->
+  <div id="successModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="max-w-sm w-full bg-[#17181C] rounded-2xl p-6 border border-[#FF5600]/40 shadow-2xl flex flex-col items-center text-center gap-3">
+      <div class="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+        <i data-lucide="check-circle-2" class="w-7 h-7"></i>
+      </div>
+      <h3 class="text-lg font-black text-white">상담 신청이 완료되었습니다!</h3>
+      <p class="text-xs text-gray-300 leading-relaxed">
+        담당 입학 실장님이 남겨주신 연락처로 <span class="text-yellow-300 font-bold">30분 이내</span>에 연락을 드립니다.
+      </p>
+      <button onclick="closeSuccessModal()" class="w-full py-3 rounded-xl bg-[#FF5600] text-white text-xs font-bold mt-2">
+        확인
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Countdown Timer
+    let h = 4, m = 18, s = 29;
+    setInterval(() => {
+      if (s > 0) { s--; } else if (m > 0) { m--; s = 59; } else if (h > 0) { h--; m = 59; s = 59; } else { h = 4; m = 18; s = 29; }
+      const format = (n) => String(n).padStart(2, '0');
+      const el = document.getElementById('countdown');
+      if (el) el.innerText = `${format(h)}:${format(m)}:${format(s)}`;
+    }, 1000);
+
+    // Phone Auto Hyphen
+    const phoneInput = document.getElementById('parentPhone');
+    if (phoneInput) {
+      phoneInput.addEventListener('input', (e) => {
+        let val = e.target.value.replace(/[^0-9]/g, '').slice(0, 11);
+        if (val.length > 7) {
+          val = `${val.slice(0,3)}-${val.slice(3,7)}-${val.slice(7)}`;
+        } else if (val.length > 3) {
+          val = `${val.slice(0,3)}-${val.slice(3)}`;
+        }
+        e.target.value = val;
+      });
+    }
+
+    // Modal helpers
+    function openImageModal(url, title) {
+      document.getElementById('modalImage').src = url;
+      document.getElementById('modalImageTitle').innerText = title;
+      document.getElementById('imageModal').classList.remove('hidden');
+    }
+    function closeImageModal() {
+      document.getElementById('imageModal').classList.add('hidden');
+    }
+    function handleLeadSubmit(e) {
+      e.preventDefault();
+      document.getElementById('successModal').classList.remove('hidden');
+      e.target.reset();
+    }
+    function closeSuccessModal() {
+      document.getElementById('successModal').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>

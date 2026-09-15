@@ -1,0 +1,6 @@
+{
+  "name": "워싱턴크리스찬스쿨",
+  "description": "워싱턴크리스찬스쿨(WCS) 글로벌 명문대 및 의대 직행 맞춤 입학 안내",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

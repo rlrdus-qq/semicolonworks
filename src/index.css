@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    word-break: keep-all;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-academic {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 16px), 16px);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+@keyframes liveBlink {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.88); }
+}
+
+.live-pulse {
+  animation: liveBlink 1.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes badgeGlow {
+  0%, 100% { box-shadow: 0 0 18px rgba(255, 86, 0, 0.35); }
+  50% { box-shadow: 0 0 28px rgba(255, 86, 0, 0.65); }
+}
+
+.btn-glow {
+  animation: badgeGlow 2.5s infinite;
+}
+
+.bubble-tail-left::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 18px;
+  width: 12px;
+  height: 12px;
+  background: inherit;
+  transform: rotate(45deg);
+  border-bottom: inherit;
+  border-right: inherit;
+}
+
+
