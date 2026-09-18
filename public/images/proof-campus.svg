@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Campus life and orientation">
+  <defs>
+    <linearGradient id="bgCampus" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#182420"/>
+      <stop offset="100%" stop-color="#0B0C0E"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgCampus)"/>
+  <rect x="60" y="120" width="90" height="110" fill="#26282E"/>
+  <rect x="160" y="90" width="110" height="140" fill="#2E3138"/>
+  <rect x="280" y="130" width="80" height="100" fill="#26282E"/>
+  <polygon points="160,90 215,55 270,90" fill="#3A3D45"/>
+  <g fill="#3AAE6B">
+    <circle cx="130" cy="252" r="14"/>
+    <circle cx="175" cy="256" r="18"/>
+    <circle cx="225" cy="250" r="12"/>
+    <circle cx="270" cy="255" r="16"/>
+  </g>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF">CAMPUS LIFE</text>
+</svg>

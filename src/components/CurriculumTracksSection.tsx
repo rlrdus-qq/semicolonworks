@@ -8,8 +8,7 @@ interface CurriculumTracksSectionProps {
 export const CurriculumTracksSection: React.FC<CurriculumTracksSectionProps> = ({
   onOpenImageModal,
 }) => {
-  const golfImg =
-    'https://lh3.googleusercontent.com/aida/AEtjO1UcRD7UDAywgkj-H2pm2UnFGkOG5RjI2mDRoy45CrI6U9u9h0oi7nkPBHIgYsn2hp51WN8mmRwG5IsNCJdlTmM8XpHZ4YoAm2NKwTZ-8YMG6bwbRX361vmLgacj08wFP8ZYCqT5RNlSmJM9RJuyo1nMSGfABfwb0ogyB97CYYBlzC8qatdzccDvL9xaGjxiE6D5mvoesY-UrgvHWGpFw3dQIV-8Iw0bpMXXGAGGGHAOVlPu0I9QVxT3-do';
+  const golfImg = 'images/golf-academy.svg';
 
   return (
     <section

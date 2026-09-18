@@ -16,8 +16,7 @@ export const OfficialProofSection: React.FC<OfficialProofSectionProps> = ({
       tagColor: 'text-yellow-300',
       title: '글로벌 최고 권위 IB World School 공식 후보 승인',
       description: '국제 바칼로레아(IB) 정규 후보교로서 전 세계 통용 학력을 공인받았습니다.',
-      imageUrl:
-        'https://lh3.googleusercontent.com/aida/AEtjO1U14dH9Wj_56u0ketFYodWzAb5FOS-1xN_zTa8JAKw1aWNbTLopfyY7Q-iREOIoPkNnEjTEUp_274rOXoSZFXapvrVWXNRPpS8Qslgwjyqx8_q0ozODTxaFCwpil4sV9_HFR_1enNZWutS-ks91i8B6IEizkdOVQCx4LDIQmv2L4B3t60CsIATLMq_1S9J480zjj_YbXlHTfiFpNyXBSTSU4vo8aMKBbC5LneEIZLsASo0h1UEmQCbgUA',
+      imageUrl: 'images/proof-ib.svg',
     },
     {
       id: 'proof-grad',
@@ -25,8 +24,7 @@ export const OfficialProofSection: React.FC<OfficialProofSectionProps> = ({
       tagColor: 'text-orange-300',
       title: '전 세계 유수 대학으로 진학하는 자랑스러운 졸업생들',
       description: '의대 및 글로벌 상위 랭킹 명문대에 매년 합격자를 안정적으로 배출하고 있습니다.',
-      imageUrl:
-        'https://lh3.googleusercontent.com/aida/AEtjO1WR-oncLSjLgA7E_fqtdCn8L6624_jyZjF4xCffJzvBEp28_CgaPEgo5iT8GFubL-LmRzXCjTpvZywi3rBqsRd-0EMCwBl8ZimIGQSFZq_AiFoNtCBwNx_qEe_Xc7sfrWMuUcQlJ7SMAKQJvGiyo_DL9W5igZTiAzuSlq2FmM9YXnA6StV-YG5zjtFchA9o7AIwnWTNOqrUb9BFfZbfgy_8-M3oXg1pzHazcUFJV95ZshmGYoqLyq-KkQ',
+      imageUrl: 'images/proof-graduation.svg',
     },
     {
       id: 'proof-campus',
@@ -34,8 +32,7 @@ export const OfficialProofSection: React.FC<OfficialProofSectionProps> = ({
       tagColor: 'text-emerald-300',
       title: '원어민 교사진과 한국인 전담 사감의 따뜻한 첫 환영',
       description: '24시간 철저한 안전 관리와 영양식단, 세심한 적응 지도로 편안한 환경을 제공합니다.',
-      imageUrl:
-        'https://lh3.googleusercontent.com/aida/AEtjO1X4GwXkZfFgsLE3ltw2-eaRWXdcLyTMXV9QFgCDOhDKtVEkemF9bguuYNfb6usVSBVGbzD6d7oTcQo4IYpJWhUvQvHWovk9GP_QxqPgf3NT8vODslzXTDUHdfjqg-pXWXr1dhRsUFdBt3wQTB-ebXE0aZeNyFV8CcorbmQwTi9EzTy8MhXCsqjhMcN3H7tNt1r9q3omBUw6NrKNW55WJefvpgCDY3met-c5yB8FGWVDw_ykauoTlcxlYw',
+      imageUrl: 'images/proof-campus.svg',
     },
   ];
 

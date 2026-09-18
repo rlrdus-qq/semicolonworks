@@ -42,10 +42,7 @@ export default function App() {
       <TopBanner />
 
       {/* 2. Main Sticky Header with Logo & Fast Contact */}
-      <Header
-        onScrollToConsult={scrollToConsult}
-        onOpenSourceModal={() => setIsSourceModalOpen(true)}
-      />
+      <Header onScrollToConsult={scrollToConsult} />
 
       {/* 3. Main Center Responsive Column (Exact Initial Design & Composition) */}
       <main className="w-full max-w-2xl min-h-screen flex flex-col bg-[#0B0C0E] border-x border-white/5 shadow-2xl relative pt-[92px] pb-24">
@@ -75,10 +72,7 @@ export default function App() {
       </main>
 
       {/* 4. Bottom Sticky Floating Bar */}
-      <BottomFloatingBar
-        onScrollToConsult={scrollToConsult}
-        onOpenSourceModal={() => setIsSourceModalOpen(true)}
-      />
+      <BottomFloatingBar onScrollToConsult={scrollToConsult} />
 
       {/* Modals */}
       <ImageModal

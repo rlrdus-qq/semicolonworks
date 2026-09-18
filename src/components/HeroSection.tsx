@@ -10,8 +10,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   onScrollToConsult,
   onOpenImageModal,
 }) => {
-  const campusImg =
-    'https://lh3.googleusercontent.com/aida/AEtjO1UIN_K2Wmar0RcYKhtHIWplJZ4DcH-kGJPkW--WeOLB-fsDuFrkUgbrBzBI6vkPs1aQAysb0EfdP4WhzwAu4OdHD9xiggEOr5H1PdxWERKCF8I_OHPpvq-wXt1Iptp47SewWbFkNWdFmD87wO6KV4KablK01jpTacfFXNoM6nWvioeYsDwXlqbHCVhEKI8UVG9UvM-bO-F3ItVkK8uAdkqNGvWxEzGXjL8EA0skZEw9dcehqMhG_MJJR4Q';
+  const campusImg = 'images/campus-hero.svg';
 
   return (
     <section id="hero-section" className="px-4 pt-4 pb-8 flex flex-col gap-4">
