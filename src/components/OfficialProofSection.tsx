@@ -16,7 +16,7 @@ export const OfficialProofSection: React.FC<OfficialProofSectionProps> = ({
       tagColor: 'text-yellow-300',
       title: '글로벌 최고 권위 IB World School 공식 후보 승인',
       description: '국제 바칼로레아(IB) 정규 후보교로서 전 세계 통용 학력을 공인받았습니다.',
-      imageUrl: 'images/proof-ib.svg',
+      imageUrl: 'images/proof-ib.jpg',
     },
     {
       id: 'proof-grad',
@@ -24,7 +24,7 @@ export const OfficialProofSection: React.FC<OfficialProofSectionProps> = ({
       tagColor: 'text-orange-300',
       title: '전 세계 유수 대학으로 진학하는 자랑스러운 졸업생들',
       description: '의대 및 글로벌 상위 랭킹 명문대에 매년 합격자를 안정적으로 배출하고 있습니다.',
-      imageUrl: 'images/proof-graduation.svg',
+      imageUrl: 'images/proof-graduation.jpg',
     },
     {
       id: 'proof-campus',
@@ -32,7 +32,7 @@ export const OfficialProofSection: React.FC<OfficialProofSectionProps> = ({
       tagColor: 'text-emerald-300',
       title: '원어민 교사진과 한국인 전담 사감의 따뜻한 첫 환영',
       description: '24시간 철저한 안전 관리와 영양식단, 세심한 적응 지도로 편안한 환경을 제공합니다.',
-      imageUrl: 'images/proof-campus.svg',
+      imageUrl: 'images/proof-campus.jpg',
     },
   ];
 

@@ -8,7 +8,7 @@ interface CurriculumTracksSectionProps {
 export const CurriculumTracksSection: React.FC<CurriculumTracksSectionProps> = ({
   onOpenImageModal,
 }) => {
-  const golfImg = 'images/golf-academy.svg';
+  const golfImg = 'images/golf-academy.jpg';
 
   return (
     <section

@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ onScrollToConsult, onOpenSourceM
           className="flex items-center bg-white px-2.5 py-1 rounded shadow-sm hover:opacity-95 transition-opacity"
         >
           <img
-            src="images/logo-wcs.svg"
+            src="images/logo-wcs.jpg"
             alt="워싱턴크리스찬스쿨 공식 로고"
             className="h-6 w-auto object-contain"
             referrerPolicy="no-referrer"

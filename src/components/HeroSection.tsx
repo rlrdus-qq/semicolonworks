@@ -10,7 +10,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   onScrollToConsult,
   onOpenImageModal,
 }) => {
-  const campusImg = 'images/campus-hero.svg';
+  const campusImg = 'images/campus-hero.jpg';
 
   return (
     <section id="hero-section" className="px-4 pt-4 pb-8 flex flex-col gap-4">
